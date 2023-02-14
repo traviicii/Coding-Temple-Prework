@@ -1,6 +1,6 @@
 
 body {
-    background-color: purple;
+    background-color: black;
 
 }
 
@@ -30,7 +30,7 @@ body {
   }
 
 
-  /* Darker background on mouse-over */
+  /* lighter background on mouse-over */
   .btn:hover {
     background-color: rgb(193, 184, 205);
     color: #000;
@@ -101,7 +101,7 @@ body {
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
-    top: 85%;
+    top: 83%;
     left: .5%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -122,11 +122,18 @@ body {
   .icon-bar a:hover {
     background-color: white;
     color:  black;
+    cursor: crosshair;
   }
   
   .github {
     background: black;
     color: white;
+  }
+
+  .codewars {
+    background: black;
+    color: white;
+
   }
   
   .linkedin {
