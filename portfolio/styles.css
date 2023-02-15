@@ -14,6 +14,7 @@ body {
     right: 37%;
     font-size: 36px;
     border-radius: 5px;
+    background-image: linear-Gradient(to right, black, yellowgreen, yellow, orange, orange, yellow,  yellowgreen, black);
 }
 
 /* Styles the lined menu button */
@@ -174,5 +175,6 @@ body {
 }
 
 .about-me {
+
     
 }
