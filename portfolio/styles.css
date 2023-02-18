@@ -4,6 +4,10 @@ body {
 
 }
 
+#main {
+  overflow: auto;
+}
+
 #mainhead {
     font-family: Monospace, "Monaco";
     text-align: center;
@@ -66,11 +70,13 @@ body {
     color: #818181;
     display: block;
     transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     color: #f1f1f1;
+    transition: .5s ease;
   }
   
   /* Position and style the close button (top right corner) */
@@ -163,6 +169,7 @@ body {
     padding: 10px;
     margin: 0 20px 0 20px;
     background: rgb(193, 184, 205);
+    border-radius: 10px;
 }
 
 .left-panel {
@@ -172,6 +179,7 @@ body {
     padding: 10px;
     margin: 0 20px 0 20px;
     background: rgb(193, 184, 205);
+    border-radius: 10px;
 }
 
 .about-me {
