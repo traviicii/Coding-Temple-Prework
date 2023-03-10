@@ -235,7 +235,7 @@ input[type=submit] {
 input[type=submit]:hover {
   /*background-color: greenyellow;*/
   color: black;
-  background-image: linear-Gradient(to right, yellowgreen, yellow,  yellowgreen)
+  background-image: linear-Gradient(to right, yellowgreen, yellow, yellow, yellowgreen)
 }
 
 .contactme {
