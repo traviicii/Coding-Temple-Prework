@@ -4,6 +4,12 @@ body {
 
 }
 
+::selection {
+  color: greenyellow;
+  background: black;
+}
+
+
 #main {
   overflow: auto;
 }
@@ -165,9 +171,12 @@ body {
     color: white;
   }
 
+  .icon-bar .playstation:hover {
+    
+  }
 
 /*-----------------------------*/
-/*-------- Panels ------------------*/
+/*-------- Panels on main page ------------------*/
 
 .right-panel {
     border-style: solid;
@@ -192,4 +201,56 @@ body {
 .about-me {
 
     
+}
+
+/*-------------------Contact Me Form----------------*/
+
+input[type=text], select, textarea {
+  font-family: Monospace, "Monaco";
+  width: 100%;
+  word-wrap: break-word;
+  padding: 12px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: Monospace, "Monaco";
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+}
+
+input[type=submit]:hover {
+  /*background-color: greenyellow;*/
+  color: black;
+  background-image: linear-Gradient(to right, yellowgreen, yellow,  yellowgreen)
+}
+
+.contactme {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-family: Monospace, "Monaco";
+  width: 500px;
+  border-radius: 5px;
+  background-color: rgb(193, 184, 205);
+  padding: 20px;
+}
+
+#contactflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
